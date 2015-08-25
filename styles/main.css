@@ -1,0 +1,147 @@
+a:link {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: normal;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFF;
+    font-weight: normal;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.25;
+}
+
+span a {
+    padding: 10px;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.top {
+    height: 50px;
+    background-color: #258BBD;
+    position: relative;
+}
+
+.home {
+    text-align: center;
+    color: #fff;
+    background-color: #354050;
+    padding-top: 140px;
+}
+
+.home-middle {
+    padding-bottom: 10px;
+}
+
+.home-down {
+    height: 285px;
+    background-color: #354050;
+}
+
+.create-box-top {
+    width: 209px;
+    height: 54px;
+    background-color: #267AA3;
+    border: 10px solid #222933;
+    margin: auto;
+}
+
+.home-bottom {
+    background-color: #354050;
+    padding: 58px auto;
+}
+
+.down-button {
+    width: 49px;
+    height: 22px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.icon-box {
+    background-color: #354050;
+    padding: 119px 0 46px 0;
+}
+
+.icon {
+    width: 303px;
+    height: 69px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: #fff;
+
+}
+
+.spacer {
+    height: 190px;
+    background-color: #E8F0F5;
+}
+
+
+.feature-box {
+    padding: 17px 10px 2px 10px;
+    background-color: #D1D3D7;
+}
+
+.feature-one {
+    height: 216px;
+    background-color: #fff;
+    margin: 15px 0 15px 0;
+    margin-bottom: 30px;
+}
+
+.feature-two {
+    height: 240px;
+    background-color: #fff;
+    margin: 15px 0 15px 0;
+    margin-bottom: 30px;
+}
+
+.sub-header {
+    background-color: #E8F0F5;
+    padding: 96px 0 22px 0;
+}
+
+.create-box-bottom {
+    width: 208px;
+    height: 52px;
+    background-color: #2C8CBB;
+    margin: auto;
+}
+
+.foot {
+    text-align: center;
+    height: 130px;
+    background-color: #030303;
+}
+
+.links {
+    padding: 20px;
+    font-size: 0.7em;
+    line-height: 2.25;
+}
+
+.automat {
+    width: 134px;
+    height: 25px;
+    background-color: #fff;
+    margin: auto;
+}
