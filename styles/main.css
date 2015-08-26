@@ -39,6 +39,31 @@ h4 {
     position: relative;
 }
 
+.site-logo {
+    width: 34px;
+    height: 34px;
+    background-color: #fff;
+    float: left;
+    margin: 8px 14px 8px 14px;
+}
+
+.site-title {
+    display: inline-block;
+    width: 119px;
+    height: 34px;
+    background-color: #fff;
+    margin: 8px 0 8px 0;
+}
+
+.login-button {
+    display: inline-block;
+    width: 75px;
+    height: 48px;
+    background-color: #196FA1;
+    float: right;
+    box-shadow: 0 2px #155F90;
+}
+
 .home {
     text-align: center;
     color: #fff;
@@ -81,13 +106,29 @@ h4 {
 }
 
 .icon {
-    width: 303px;
+    max-width: 275px;
     height: 69px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 30px;
     background-color: #fff;
+    overflow: hidden;
+}
 
+.icon-left {
+    width: 48px;
+    height: 58px;
+    float: left;
+    background-color: #626E7E;
+    border-top: 12px solid #fff;
+    border-right: 12px solid #fff;
+}
+
+.icon-right {
+    height: 56px;
+    background-color: #626E7E;
+    border-right: 5px solid #fff;
+    border-bottom: 14px solid #fff;
 }
 
 .spacer {
@@ -102,17 +143,42 @@ h4 {
 }
 
 .feature-one {
-    height: 216px;
     background-color: #fff;
     margin: 15px 0 15px 0;
     margin-bottom: 30px;
+    padding: 20px 15px 36px 15px;
 }
 
 .feature-two {
-    height: 240px;
     background-color: #fff;
     margin: 15px 0 15px 0;
     margin-bottom: 30px;
+    padding: 20px 15px 36px 15px;
+}
+
+.tag {
+    width: 62px;
+    height: 62px;
+    background-color: #C7D2D8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.tag-title {
+    height: 22px;
+    background-color: #C7D2D8;
+    margin-bottom: 17px;
+}
+
+.tag-text-sm {
+    height: 48px;
+    background-color: #C7D2D8;
+}
+
+.tag-text-lg {
+    height: 73px;
+    background-color: #C7D2D8;
 }
 
 .sub-header {
