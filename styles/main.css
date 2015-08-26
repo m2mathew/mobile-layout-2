@@ -56,6 +56,8 @@ h4 {
     width: 119px;
     height: 34px;
     margin: 8px 0 8px 0;
+    line-height: 2;
+    font-weight: 200;
 }
 
 .title-start {
@@ -64,6 +66,7 @@ h4 {
 
 .title-end {
     color: #9ECCE3;
+    display: inline;
 }
 
 .login-button {
@@ -103,7 +106,9 @@ h4 {
     margin: auto;
     color: white;
     text-align: center;
-    font-weight: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 0.75;
 }
 
 .home-bottom {
@@ -137,26 +142,47 @@ h4 {
     width: 48px;
     height: 58px;
     float: left;
-    background-color: #626E7E;
-    border-top: 12px solid #fff;
-    border-right: 12px solid #fff;
+    background-color: #fff;
+    border-top: 12px solid #354050;
+    border-right: 12px solid #354050;
 }
 
 .icon-right {
     height: 56px;
-    background-color: #626E7E;
-    border-right: 5px solid #fff;
-    border-bottom: 14px solid #fff;
+    background-color: #354050;
+    border-right: 5px solid #354050;
+    border-bottom: 14px solid #354050;
+    padding-top: 15px;
+}
+
+.icon-top {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 0.8;
+    margin: 0;
+}
+
+.icon-bottom {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
 }
 
 .spacer {
     height: 190px;
     background-color: #E8F0F5;
-    text-align: center;
-    color: #314054;
-    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 12px solid #E8F0F5;
 }
 
+.spaced {
+    text-align: center;
+    color: #314054;
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 1.75;
+}
 
 .feature-box {
     padding: 17px 10px 2px 10px;
@@ -188,23 +214,35 @@ h4 {
 
 .tag-title {
     height: 22px;
-    background-color: #C7D2D8;
+    background-color: #fff;
     margin-bottom: 17px;
+    text-align: center;
+    color: #446276;
+    font-size: 1.25em;
 }
 
 .tag-text-sm {
     height: 48px;
-    background-color: #C7D2D8;
+    background-color: #fff;
+    text-align: center;
+    color: #4B4B4C;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .tag-text-lg {
     height: 73px;
-    background-color: #C7D2D8;
+    background-color: #fff;
+    text-align: center;
+    color: #4B4B4C;
+    font-size: 1em;
+    line-height: 1.5;
 }
 
 .sub-header {
     background-color: #E8F0F5;
-    padding: 96px 0 22px 0;
+    padding-bottom: 20px;
+    padding-top: 1px;
 }
 
 .create-box-bottom {
@@ -212,6 +250,19 @@ h4 {
     height: 52px;
     background-color: #2C8CBB;
     margin: auto;
+    text-align: center;
+    color: #fff;
+    line-height: 2.5;
+    font-size: 1.35em;
+    font-weight: 100;
+}
+
+.spaced-bottom {
+    text-align: center;
+    color: #314054;
+    font-size: 1.4em;
+    font-weight: 200;
+    line-height: 2.25;
 }
 
 .foot {
@@ -229,6 +280,6 @@ h4 {
 .automat {
     width: 134px;
     height: 25px;
-    background-color: #fff;
+    background-color: #000;
     margin: auto;
 }
