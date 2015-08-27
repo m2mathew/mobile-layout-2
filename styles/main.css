@@ -1,13 +1,6 @@
-a:link {
-    color: #FFF;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #FFF;
-    font-weight: normal;
+img {
+    width: 100%;
+    height: 100%;
 }
 
 a:hover {
@@ -21,12 +14,9 @@ body {
     line-height: 1.25;
 }
 
-span a {
-    padding: 10px;
-}
-
 h1 {
     font-weight: normal;
+    text-align: center;
 }
 
 h3 {
@@ -38,17 +28,18 @@ h4 {
 }
 
 .top {
-    height: 50px;
+    height: 3.125em;
     background-color: #258BBD;
     position: relative;
 }
 
-.site-logo {
+.logo {
     width: 34px;
     height: 34px;
     background-color: #fff;
     float: left;
     margin: 8px 14px 8px 14px;
+    border-radius: 1em;
 }
 
 .site-title {
@@ -58,9 +49,6 @@ h4 {
     margin: 8px 0 8px 0;
     line-height: 2;
     font-weight: 200;
-}
-
-.title-start {
     color: #fff;
 }
 
@@ -82,69 +70,83 @@ h4 {
     line-height: 1.75;
 }
 
-.home {
+.hero {
+    background-image: url(../images/crowd.jpg);
+    height: 100%;
     text-align: center;
     color: #fff;
     background-color: #354050;
     padding-top: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.home-middle {
+.tagline {
     padding-bottom: 10px;
+    font-weight: 100;
+    margin: 2em auto 0 auto;
+    font-size: 1em;
+    color: #fff;
 }
 
-.home-down {
-    height: 285px;
-    background-color: #354050;
+.button-border {
+    width: 13em;
+    background-color: rgba(21, 29, 34, 0.4);
+    margin: 0 auto;
+    padding: 0.5em;
 }
 
-.create-button {
-    width: 209px;
-    height: 54px;
+.button {
+    width: 7em;
     background-color: #267AA3;
-    border: 10px solid #222933;
     margin: auto;
     color: white;
-    text-align: center;
     font-weight: 400;
-    font-size: 1.3em;
-    line-height: 0.75;
+    font-size: 1.4em;
+    padding: 1em;
+    line-height: 0.6;
 }
 
-.home-bottom {
-    background-color: #354050;
-    padding: 58px auto;
-}
-
-.down-button {
-    width: 49px;
-    height: 22px;
-    background-color: #fff;
-    margin: auto;
+.down {
+    display: block;
+    width: 3.215em;
+    height: 1.375em;
+    margin: 13.375em auto 8.5em auto;
+    color: #fff;
 }
 
 .icon-box {
     background-color: #354050;
-    padding: 119px 0 46px 0;
-}
-
-.icon {
     max-width: 275px;
-    height: 69px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 30px;
     background-color: #fff;
     overflow: hidden;
+    background: rgba(255, 255, 255, 0);
 }
 
-.icon-left {
+.icon {
     width: 48px;
-    height: 58px;
     float: left;
-    background-color: #fff;
-    border-top: 12px solid #354050;
-    border-right: 12px solid #354050;
+    font-size: 48px;
+    background: rgba(255, 255, 255, 0);
+    margin: 0 10px 5px 0;
+}
+
+span > h3 {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 0.8;
+    margin: 0;
+}
+
+span p {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+    float; left;
 }
 
 .icon-right {
@@ -155,36 +157,20 @@ h4 {
     padding-top: 15px;
 }
 
-.icon-top {
-    color: #fff;
-    font-size: 1.1em;
-    font-weight: 400;
-    line-height: 0.8;
-    margin: 0;
-}
-
-.icon-bottom {
-    color: #fff;
-    font-size: 0.8em;
-    font-weight: 300;
-}
-
-.spacer {
+.feature {
     height: 190px;
     background-color: #E8F0F5;
     box-sizing: border-box;
     border: 12px solid #E8F0F5;
-}
-
-.spaced {
     text-align: center;
     color: #314054;
     font-size: 1.4em;
     font-weight: 200;
     line-height: 1.75;
+    padding-top: 12px;
 }
 
-.feature-box {
+.benefits {
     padding: 17px 10px 2px 10px;
     background-color: #D1D3D7;
 }
@@ -241,28 +227,35 @@ h4 {
 
 .sub-header {
     background-color: #E8F0F5;
-    padding-bottom: 20px;
-    padding-top: 1px;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+    text-align: center;
 }
 
 .create-box-bottom {
     width: 208px;
     height: 52px;
     background-color: #2C8CBB;
-    margin: auto;
-    text-align: center;
+    margin: 0.25em auto;
     color: #fff;
     line-height: 2.5;
     font-size: 1.35em;
     font-weight: 100;
+    border-top: 1em;
+    box-sizing: border-box;
 }
 
 .spaced-bottom {
-    text-align: center;
     color: #314054;
     font-size: 1.4em;
     font-weight: 200;
     line-height: 2.25;
+}
+
+.feature.bottom {
+    height: 10.625em;
+    padding: 1.25em;
+    box-sizing: border-box;
 }
 
 .foot {
@@ -271,15 +264,19 @@ h4 {
     background-color: #030303;
 }
 
-.links {
-    padding: 20px;
-    font-size: 0.7em;
-    line-height: 2.25;
+.automattic {
+    width: 8.25em;
+    height: 1.5em;
+    background-color: #111;
+    margin: 0 auto;
+    margin-top: 1em;
 }
 
-.automat {
-    width: 134px;
-    height: 25px;
-    background-color: #000;
-    margin: auto;
+footer a {
+    padding: 0 0.5em;
+    font-size: 0.7em;
+    line-height: 2.25;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: normal;
 }
