@@ -84,7 +84,7 @@ h4 {
 .tagline {
     padding-bottom: 10px;
     font-weight: 100;
-    margin: 2em auto 0 auto;
+    margin: 1em auto 0 auto;
     font-size: 1em;
     color: #fff;
 }
@@ -134,19 +134,36 @@ h4 {
     margin: 0 10px 5px 0;
 }
 
-span > h3 {
+.icon-bin {
+    padding-bottom: 10em 0;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.icon-tag {
     color: #fff;
     font-size: 1.1em;
     font-weight: 400;
     line-height: 0.8;
     margin: 0;
+    float: left;
+    padding-top: 0.5em;
+    padding-bottom: 0.6em;
+}
+
+.icon-slogan {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+    float: left;
+    padding-bottom: 1em;
 }
 
 span p {
     color: #fff;
     font-size: 0.8em;
     font-weight: 300;
-    float; left;
+    float: left;
 }
 
 .icon-right {
@@ -175,27 +192,34 @@ span p {
     background-color: #D1D3D7;
 }
 
-.feature-one {
+.benefit1 {
     background-color: #fff;
     margin: 15px 0 15px 0;
     margin-bottom: 30px;
     padding: 20px 15px 36px 15px;
 }
 
-.feature-two {
+.benefit2 {
     background-color: #fff;
     margin: 15px 0 15px 0;
     margin-bottom: 30px;
     padding: 20px 15px 36px 15px;
 }
 
-.tag {
-    width: 62px;
-    height: 62px;
+.circle {
+    width: 3.875em;
+    height: 3.875em;
     background-color: #C7D2D8;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.circle img {
+    width: 2em;
+    height: 2em;
+    padding-left: 1em;
+    padding-top: 0.85em;
 }
 
 .tag-title {
@@ -205,6 +229,7 @@ span p {
     text-align: center;
     color: #446276;
     font-size: 1.25em;
+    padding-top: 0.5em;
 }
 
 .tag-text-sm {
@@ -225,43 +250,34 @@ span p {
     line-height: 1.5;
 }
 
-.sub-header {
+.bottom {
     background-color: #E8F0F5;
-    padding-bottom: 1.5em;
-    padding-top: 1em;
-    text-align: center;
-}
-
-.create-box-bottom {
-    width: 208px;
-    height: 52px;
-    background-color: #2C8CBB;
-    margin: 0.25em auto;
-    color: #fff;
-    line-height: 2.5;
-    font-size: 1.35em;
-    font-weight: 100;
-    border-top: 1em;
     box-sizing: border-box;
-}
-
-.spaced-bottom {
+    border: 1px solid #E8F0F5;
+    text-align: center;
     color: #314054;
     font-size: 1.4em;
     font-weight: 200;
-    line-height: 2.25;
+    line-height: 1.75;
+    padding-bottom: 1em;
 }
 
-.feature.bottom {
-    height: 10.625em;
-    padding: 1.25em;
-    box-sizing: border-box;
+.button-bottom {
+    width: 7em;
+    background-color: #267AA3;
+    margin: auto;
+    color: white;
+    font-weight: 200;
+    padding: 1em;
+    line-height: 0.6;
 }
 
 .foot {
     text-align: center;
-    height: 130px;
     background-color: #030303;
+    padding-top: 1.25em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 
 .automattic {
@@ -270,11 +286,12 @@ span p {
     background-color: #111;
     margin: 0 auto;
     margin-top: 1em;
+    padding-bottom: 1em;
 }
 
 footer a {
-    padding: 0 0.5em;
-    font-size: 0.7em;
+    padding: 0 0.6em;
+    font-size: 0.68em;
     line-height: 2.25;
     color: #FFF;
     text-decoration: none;
